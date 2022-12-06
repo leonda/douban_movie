@@ -1,5 +1,4 @@
 import pandas as pd
-import re
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -37,7 +36,6 @@ if __name__ == '__main__':
     #     address = './data/' + str(year)+'.csv'
     #     draw(address, str(year))
     year = 2014
-    bot = [0.6, 0.5, 0.6, 0.6, 0.5]
     bottom = 0.6
     address = './data/' + str(year)+'.csv'
     draw(address, str(year), bottom)
